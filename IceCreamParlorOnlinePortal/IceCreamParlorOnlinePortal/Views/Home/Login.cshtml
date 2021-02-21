@@ -1,0 +1,46 @@
+﻿@model IceCreamParlorOnlinePortal.Models.LoginModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@helper button(string type, string value)
+{
+    <input type="@type" value="@value" class="btn btn-primary btn-group-lg" />
+}
+<!-- login-page -->
+<div class="login-page">
+    <div class="container">
+        <h3 class="w3ls-title w3ls-title1">Login to your account</h3>
+        <div class="login-body">
+            @using (Html.BeginForm(FormMethod.Post))
+            {
+               @Html.TextBoxFor(x => x.UserName, new { @Class = "user", placeholder = "Username" })
+               @Html.ValidationMessageFor(x => x.UserName, null, new { style = "color:red;" })
+
+                @Html.TextBoxFor(x => x.User_Password, new { @Class = "password", placeholder = "Password" })
+                @Html.ValidationMessageFor(x => x.User_Password, null, new { style = "color:red;" })
+                @button("submit", "Submit")
+                <div class="forgot-grid">
+                    @*<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Remember me</label>
+                        <div class="forgot">
+                            <a href="#">Forgot Password?</a>
+                        </div>*@
+                    <label class="has-error" style="color:red">@ViewBag.Message</label>
+                    <div class="clearfix"> </div>
+                </div>
+            }
+        </div>
+        <div class="login-page-bottom social-icons">
+            <h5>Recover your social account</h5>
+            <ul>
+                <li><a href="https://www.facebook.com" class="fa fa-facebook icon facebook"> </a></li>
+                <li><a href="https://twitter.com" class="fa fa-twitter icon twitter"> </a></li>
+                <li><a href="https://www.google.com" class="fa fa-google-plus icon googleplus"> </a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- //login-page -->
+
+

@@ -1,0 +1,89 @@
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form1.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form10.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form11.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form12.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form13.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form2.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form3.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form4.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form5.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form6.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form7.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form8.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form9.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Properties.Resources.resources
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.exe
+c:\users\ok computer\documents\visual studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.pdb
+C:\Users\ok computer\Documents\Visual Studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\ok computer\Documents\Visual Studio 2010\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form14.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.exe
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.pdb
+F:\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+F:\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.QBS.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form10.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form11.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form12.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form13.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form14.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form4.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form7.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form8.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form9.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Properties.Resources.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Admin_Login_Portal.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.User_Login_Portal.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Login_Portal.resources
+F:\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Sign_Up.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.exe
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.pdb
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.QBS.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.EnglishII.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Botany.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Zoology.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Physics.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Fedback_User.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Admin_Login_Portal.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.User_Login_Portal.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.User_Choose_Subjects.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Login_Portal.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Sign_Up.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Chemistry.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Computer.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.EnglishI.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\hammad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\hammad\Desktop\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.exe
+C:\Users\hammad\Desktop\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.pdb
+E:\Files\Documents\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.exe
+E:\Files\Documents\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.pdb
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.exe
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.pdb
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.QBS.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.EnglishII.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Botany.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Zoology.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Physics.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Fedback_User.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Admin_Login_Portal.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.User_Login_Portal.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.User_Choose_Subjects.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Login_Portal.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Sign_Up.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Chemistry.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Computer.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.EnglishI.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Properties.Resources.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Random Question Paper Generator System\WindowsFormsApplication6\obj\x86\Debug\GenerateResource.write.1.tlog

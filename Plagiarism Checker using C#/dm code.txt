@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace DMPROJECT_CHECK
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine();
+
+
+            Console.WriteLine("___String matching by Rabin-Karp method (An implementation of hash table)___");
+            Console.WriteLine();
+            Console.Write("Enter Your Input in String = ");
+            string txt = Console.ReadLine();
+            Console.Write("Enter you Pattern you want to Check = ");
+            string pattern = Console.ReadLine();
+            int q = 101;
+            Rabin_Karp_Algorithm print = new Rabin_Karp_Algorithm();
+            print.Search(pattern, txt, q);
+
+            Console.ReadLine();
+        }
+    }
+}
+============================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+public class Rabin_Karp_Algorithm
+{
+    public readonly static int d = 256;
+    public void Search(String pat, String txt, int q)
+    {
+        int M = pat.Length;
+        int N = txt.Length;
+        int i, j;
+        int p = 0;
+        int t = 0;
+        int h = 1;
+
+        for (i = 0; i < M - 1; i++)
+            h = (h * d) % q;
+
+        for (i = 0; i < M; i++)
+        {
+            p = (d * p + pat[i]) % q;
+            t = (d * t + txt[i]) % q;
+        }
+        for (i = 0; i <= N - M; i++)
+        {
+
+            if (p == t)
+            {
+                for (j = 0; j < M; j++)
+                {
+                    if (txt[i + j] != pat[j])
+                        break;
+                }
+
+                if (j == M)
+                    Console.WriteLine("Pattern found at index " + i);
+            }
+
+            if (i < N - M)
+            {
+                t = (d * (t - txt[i] * h) + txt[i + M]) % q;
+                if (t < 0)
+                    t = (t + q);
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\csc.exe
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\System.Collections.Immutable.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\vbc.exe
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\VBCSCompiler.exe
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\VBCSCompiler.exe.config
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\IceCreamParlorOnlinePortal.dll.config
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\IceCreamParlorOnlinePortal.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\IceCreamParlorOnlinePortal.pdb
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Antlr3.Runtime.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Microsoft.Web.Infrastructure.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Newtonsoft.Json.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Helpers.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Mvc.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Optimization.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Razor.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.Deployment.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.Razor.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\WebGrease.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Helpers.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Mvc.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Optimization.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Razor.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.Deployment.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.Razor.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Antlr3.Runtime.pdb
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Newtonsoft.Json.xml
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\obj\Debug\IceCreamParlorOnlinePortal.csprojResolveAssemblyReference.cache
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\obj\Debug\IceCreamParlorOnlinePortal.dll
+c:\users\786traders\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\obj\Debug\IceCreamParlorOnlinePortal.pdb
+C:\Users\786TRADERS\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\EntityFramework.dll
+C:\Users\786TRADERS\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\EntityFramework.SqlServer.dll
+C:\Users\786TRADERS\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\EntityFramework.xml
+C:\Users\786TRADERS\documents\visual studio 2015\Projects\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\EntityFramework.SqlServer.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\csc.exe
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\vbc.exe
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\IceCreamParlorOnlinePortal.dll.config
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\IceCreamParlorOnlinePortal.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\IceCreamParlorOnlinePortal.pdb
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Antlr3.Runtime.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\EntityFramework.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\EntityFramework.SqlServer.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Newtonsoft.Json.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Helpers.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Mvc.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Optimization.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Razor.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.Razor.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\WebGrease.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\EntityFramework.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\EntityFramework.SqlServer.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Helpers.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Mvc.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Optimization.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.Razor.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\System.Web.WebPages.Razor.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Antlr3.Runtime.pdb
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\bin\Newtonsoft.Json.xml
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\obj\Debug\IceCreamParlorOnlinePortal.csprojResolveAssemblyReference.cache
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\obj\Debug\IceCreamParlorOnlinePortal.dll
+C:\Users\javeria\Downloads\BSCS\Fall-19\Fall-19\Data Base Managment System (DBMS)\Project\IceCreamParlorOnlinePortal\IceCreamParlorOnlinePortal\obj\Debug\IceCreamParlorOnlinePortal.pdb

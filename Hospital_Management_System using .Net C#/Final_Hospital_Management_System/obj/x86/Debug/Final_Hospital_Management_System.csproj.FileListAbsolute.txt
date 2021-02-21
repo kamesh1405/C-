@@ -1,0 +1,41 @@
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\bin\Debug\Final_Hospital_Management_System.exe
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\bin\Debug\Final_Hospital_Management_System.pdb
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Properties.Resources.resources
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.csproj.GenerateResource.Cache
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.exe
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.pdb
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.HMS.resources
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.AdminLogin.resources
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.DoctorLogin.resources
+c:\users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Sign_Up.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Admin_Check_Attendence.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Admin_My_Profile.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Admin_Portal.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Attendence.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Doctor_Details.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Doctor_My_Profile.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Doctor_Patient_Information.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Doctor_Portal.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Admin_Patient_Information.resources
+C:\Users\hammad\documents\visual studio 2010\Projects\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.csprojResolveAssemblyReference.cache
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.exe
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.pdb
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\bin\Debug\Final_Hospital_Management_System.exe
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\bin\Debug\Final_Hospital_Management_System.pdb
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.AdminLogin.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Admin_Check_Attendence.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Admin_My_Profile.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Admin_Portal.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Attendence.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.DoctorLogin.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Doctor_Details.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Doctor_My_Profile.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Doctor_Patient_Information.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Doctor_Portal.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.HMS.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Admin_Patient_Information.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Properties.Resources.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\Final_Hospital_Management_System.Sign_Up.resources
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PAF-KIET\Fall-18\Object Oriented Programming\Lab\Project HMS\Final_Hospital_Management_System\Final_Hospital_Management_System\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0fb5ce3e31a4458191cc7b3e10224a6f" Name="Diagram1">
+        <EntityTypeShape EntityType="OnlineIceCreamPortalModel.tbl_Login" Width="1.5" PointX="12.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineIceCreamPortalModel.tbl_Employee" Width="1.5" PointX="12" PointY="3.375" />
+        <EntityTypeShape EntityType="OnlineIceCreamPortalModel.tbl_IceCream_Category" Width="1.5" PointX="0.5" PointY="0.5" />
+        <AssociationConnector Association="OnlineIceCreamPortalModel.FK__tbl_Login__Emp_I__0DAF0CB0" />
+        <EntityTypeShape EntityType="OnlineIceCreamPortalModel.CustomerPurchase" Width="1.5" PointX="9.5" PointY="5.875" />
+        <EntityTypeShape EntityType="OnlineIceCreamPortalModel.tbl_IceCreamProduct_Vendor" Width="1.5" PointX="2.75" PointY="3" />
+        <EntityTypeShape EntityType="OnlineIceCreamPortalModel.tbl_Invoice" Width="1.5" PointX="8" PointY="2.375" />
+        <AssociationConnector Association="OnlineIceCreamPortalModel.FK__CustomerP__Invoi__0E6E26BF" />
+        <EntityTypeShape EntityType="OnlineIceCreamPortalModel.tbl_IceCream_Product" Width="1.5" PointX="5" PointY="1" />
+        <AssociationConnector Association="OnlineIceCreamPortalModel.FK__tbl_IceCr__Cat_I__160F4887" />
+        <AssociationConnector Association="OnlineIceCreamPortalModel.FK__tbl_IceCr__Vend___17036CC0" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

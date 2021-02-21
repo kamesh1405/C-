@@ -1,0 +1,22 @@
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN_Hamming_Code.Error_Checker.resources
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN_Hamming_Code.Form1.resources
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN_Hamming_Code.Properties.Resources.resources
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\bin\Debug\DCN Hamming Code.exe
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\bin\Debug\DCN Hamming Code.pdb
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN Hamming Code.exe
+c:\users\mohsin hassan\documents\visual studio 2010\Projects\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN Hamming Code.pdb
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN Hamming Code.exe
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN Hamming Code.pdb
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\bin\Debug\DCN Hamming Code.exe
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\bin\Debug\DCN Hamming Code.pdb
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN_Hamming_Code.Error_Checker.resources
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN_Hamming_Code.Form1.resources
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN_Hamming_Code.Properties.Resources.resources
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN Hamming Code.exe
+F:\projecttt\DCN Hamming Code\DCN Hamming Code\obj\x86\Debug\DCN Hamming Code.pdb

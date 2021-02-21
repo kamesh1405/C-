@@ -1,0 +1,21 @@
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\bin\Debug\PF Project.exe.config
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\bin\Debug\PF Project.exe
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\bin\Debug\PF Project.pdb
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\obj\Debug\PF Project.csprojResolveAssemblyReference.cache
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\obj\Debug\Network_Programming.Form1.resources
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\obj\Debug\Network_Programming.Properties.Resources.resources
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\obj\Debug\PF Project.csproj.GenerateResource.Cache
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\obj\Debug\PF Project.exe
+c:\users\affan_polani\documents\visual studio 2013\Projects\PF Project\PF Project\obj\Debug\PF Project.pdb
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\bin\Debug\PF Project.exe.config
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\bin\Debug\PF Project.exe
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\bin\Debug\PF Project.pdb
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\PF Project.csprojResolveAssemblyReference.cache
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\Network_Programming.Properties.Resources.resources
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\PF Project.csproj.GenerateResource.Cache
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\PF Project.exe
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\PF Project.pdb
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\Network_Programming.Game.resources
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\Network_Programming.Main.resources
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\Network_Programming.Client.resources
+C:\Users\DARK\Desktop\PNDC Project\PF Project\PF Project\obj\Debug\Network_Programming.Server.resources

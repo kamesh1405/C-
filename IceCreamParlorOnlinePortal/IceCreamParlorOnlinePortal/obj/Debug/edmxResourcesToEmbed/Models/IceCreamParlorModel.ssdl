@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineIceCreamPortalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CustomerPurchase">
+    <Key>
+      <PropertyRef Name="Cust_Purchase_ID" />
+    </Key>
+    <Property Name="Cust_Purchase_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Quantity_Order" Type="int" Nullable="false" />
+    <Property Name="unit_price" Type="int" Nullable="false" />
+    <Property Name="Total_Price" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="Order_status" Type="binary" MaxLength="1" Nullable="false" />
+    <Property Name="Invoice_fk_Invoice_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_Employee">
+    <Key>
+      <PropertyRef Name="Emp_ID" />
+    </Key>
+    <Property Name="Emp_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Emp_Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Qualification" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Emp_Contact" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Emp_Add_On" Type="datetime" Nullable="false" />
+    <Property Name="Emp_Add_by" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Emp_Updated_On" Type="datetime" />
+    <Property Name="Emp_Updated_By" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_IceCream_Category">
+    <Key>
+      <PropertyRef Name="Cat_ID" />
+    </Key>
+    <Property Name="Cat_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cat_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cat_Add_On" Type="datetime" Nullable="false" />
+    <Property Name="Cat_Add_by" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cat_Updated_On" Type="datetime" />
+    <Property Name="Cat_Updated_By" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_IceCream_Product">
+    <Key>
+      <PropertyRef Name="IceCream_ID" />
+    </Key>
+    <Property Name="IceCream_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IceCream_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IceCream_Descrip" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IceCream_Image" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Stock" Type="int" Nullable="false" />
+    <Property Name="unit_price" Type="int" Nullable="false" />
+    <Property Name="Purchase_Price" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="Sale_Price" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="IceCream_Add_On" Type="datetime" Nullable="false" />
+    <Property Name="IceCream_Add_by" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IceCream_Updated_On" Type="datetime" />
+    <Property Name="IceCream_Updated_By" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cat_ID_fk_Cat_ID" Type="int" Nullable="false" />
+    <Property Name="Vend_ID_fk_Vend_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_IceCreamProduct_Vendor">
+    <Key>
+      <PropertyRef Name="Vend_ID" />
+    </Key>
+    <Property Name="Vend_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Vend_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Vend_Company_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Vend_Add_On" Type="datetime" Nullable="false" />
+    <Property Name="Vend_Add_by" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Vend_Updated_On" Type="datetime" />
+    <Property Name="Vend_Updated_By" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Invoice">
+    <Key>
+      <PropertyRef Name="Invoice_ID" />
+    </Key>
+    <Property Name="Invoice_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contact" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Invoice_Add_On" Type="datetime" Nullable="false" />
+    <Property Name="Invoice_Add_by" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Invoice_Updated_On" Type="datetime" />
+    <Property Name="Invoice_Updated_By" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Login">
+    <Key>
+      <PropertyRef Name="Login_ID" />
+    </Key>
+    <Property Name="Login_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Type" Type="int" Nullable="false" />
+    <Property Name="Emp_ID_fk_Emp_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__CustomerP__Invoi__0E6E26BF">
+    <End Role="tbl_Invoice" Type="Self.tbl_Invoice" Multiplicity="1" />
+    <End Role="CustomerPurchase" Type="Self.CustomerPurchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Invoice">
+        <PropertyRef Name="Invoice_ID" />
+      </Principal>
+      <Dependent Role="CustomerPurchase">
+        <PropertyRef Name="Invoice_fk_Invoice_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_IceCr__Cat_I__160F4887">
+    <End Role="tbl_IceCream_Category" Type="Self.tbl_IceCream_Category" Multiplicity="1" />
+    <End Role="tbl_IceCream_Product" Type="Self.tbl_IceCream_Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_IceCream_Category">
+        <PropertyRef Name="Cat_ID" />
+      </Principal>
+      <Dependent Role="tbl_IceCream_Product">
+        <PropertyRef Name="Cat_ID_fk_Cat_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_IceCr__Vend___17036CC0">
+    <End Role="tbl_IceCreamProduct_Vendor" Type="Self.tbl_IceCreamProduct_Vendor" Multiplicity="1" />
+    <End Role="tbl_IceCream_Product" Type="Self.tbl_IceCream_Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_IceCreamProduct_Vendor">
+        <PropertyRef Name="Vend_ID" />
+      </Principal>
+      <Dependent Role="tbl_IceCream_Product">
+        <PropertyRef Name="Vend_ID_fk_Vend_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Login__Emp_I__0DAF0CB0">
+    <End Role="tbl_Employee" Type="Self.tbl_Employee" Multiplicity="1" />
+    <End Role="tbl_Login" Type="Self.tbl_Login" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Employee">
+        <PropertyRef Name="Emp_ID" />
+      </Principal>
+      <Dependent Role="tbl_Login">
+        <PropertyRef Name="Emp_ID_fk_Emp_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineIceCreamPortalModelStoreContainer">
+    <EntitySet Name="CustomerPurchase" EntityType="Self.CustomerPurchase" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Employee" EntityType="Self.tbl_Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_IceCream_Category" EntityType="Self.tbl_IceCream_Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_IceCream_Product" EntityType="Self.tbl_IceCream_Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_IceCreamProduct_Vendor" EntityType="Self.tbl_IceCreamProduct_Vendor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Invoice" EntityType="Self.tbl_Invoice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Login" EntityType="Self.tbl_Login" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__CustomerP__Invoi__0E6E26BF" Association="Self.FK__CustomerP__Invoi__0E6E26BF">
+      <End Role="tbl_Invoice" EntitySet="tbl_Invoice" />
+      <End Role="CustomerPurchase" EntitySet="CustomerPurchase" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_IceCr__Cat_I__160F4887" Association="Self.FK__tbl_IceCr__Cat_I__160F4887">
+      <End Role="tbl_IceCream_Category" EntitySet="tbl_IceCream_Category" />
+      <End Role="tbl_IceCream_Product" EntitySet="tbl_IceCream_Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_IceCr__Vend___17036CC0" Association="Self.FK__tbl_IceCr__Vend___17036CC0">
+      <End Role="tbl_IceCreamProduct_Vendor" EntitySet="tbl_IceCreamProduct_Vendor" />
+      <End Role="tbl_IceCream_Product" EntitySet="tbl_IceCream_Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Login__Emp_I__0DAF0CB0" Association="Self.FK__tbl_Login__Emp_I__0DAF0CB0">
+      <End Role="tbl_Employee" EntitySet="tbl_Employee" />
+      <End Role="tbl_Login" EntitySet="tbl_Login" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

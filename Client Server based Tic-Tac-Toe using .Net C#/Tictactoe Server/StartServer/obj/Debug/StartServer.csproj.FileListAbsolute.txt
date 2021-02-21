@@ -1,0 +1,13 @@
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\bin\Debug\StartServer.exe.config
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\obj\Debug\StartServer.csprojResolveAssemblyReference.cache
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\obj\Debug\StartServer.Form1.resources
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\obj\Debug\StartServer.Properties.Resources.resources
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\obj\Debug\StartServer.csproj.GenerateResource.Cache
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\obj\Debug\StartServer.exe
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\obj\Debug\StartServer.pdb
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\bin\Debug\StartServer.exe.manifest
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\bin\Debug\StartServer.application
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\bin\Debug\StartServer.exe
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\bin\Debug\StartServer.pdb
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\obj\Debug\StartServer.exe.manifest
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe Server\StartServer\obj\Debug\StartServer.application

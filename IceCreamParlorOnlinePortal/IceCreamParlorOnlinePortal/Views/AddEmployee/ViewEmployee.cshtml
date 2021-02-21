@@ -1,0 +1,57 @@
+﻿@model List<IceCreamParlorOnlinePortal.Models.AddEmployeeModel>
+@{
+    ViewBag.Title = "ViewEmployee";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Ice Creams</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width:"100%"; cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Gender</th>
+                        <th>Qualification</th>
+                        <th>Email</th>
+                        <th>Contact</th>
+                        <th>Employee Add on</th>
+                        <th>Emp Add by</th>
+                        <th>Emp Updated On</th>
+                        <th>Emp Cream Updated By</th>
+
+                        <th></th>
+                 
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Emp_ID</td>
+                            <td>@item.First_Name</td>
+                            <td>@item.Last_Name</td>
+                            <td>@item.Gender</td>
+                            <td>@item.Qualification</td>
+                            <td>@item.Emp_Email</td>
+                            <td>@item.Emp_Contact</td>
+                            <td>@item.Emp_Add_On</td>
+                            <td>@item.Emp_Add_by</td>
+                            <td>@item.Emp_Updated_On</td>
+                            <td>@item.Emp_Updated_By</td>
+
+                            <td>@Html.ActionLink("Update", "Updateemp", "AddEmployee", new { EmpID = @item.Emp_ID}, new { @Class = "btn btn-primary" })</td>
+                            @*<td>@Html.ActionLink("Delete", "Deleteemp", "AddEmployee", new { EmpID = @item.Emp_ID }, new { @Class = "btn btn-danger" })</td>*@
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

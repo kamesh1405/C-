@@ -1,0 +1,49 @@
+﻿@model List<IceCreamParlorOnlinePortal.Models.AddCategoryModel>
+
+@{
+    ViewBag.Title = "ViewCategory";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Categories Of Ice Cream</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width:"100%"; cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Category ID</th>
+                        <th>Category Name</th>
+                        <th>Category Add on</th>
+                        <th>Category Add By</th>
+                        <th>Category Updated On</th>
+                        <th>Category Updated By</th>
+                        <th></th>
+             
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Cat_ID</td>
+                            <td>@item.Cat_Name</td>
+                            <td>@item.Cat_Add_On</td>
+                            <td>@item.Cat_Add_by</td>
+                            <td>@item.Cat_Updated_On</td>
+                            <td>@item.Cat_Updated_By</td>
+           
+                            <td>@Html.ActionLink("Update", "UpdateCat", "AddCategory", new { CatID = @item.Cat_ID }, new { @Class = "btn btn-primary" })</td>
+                            @*<td>@Html.ActionLink("Delete", "DeleteCat", "AddCategory", new { CatID = @item.Cat_ID }, new { @Class = "btn btn-danger" })</td>*@
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+

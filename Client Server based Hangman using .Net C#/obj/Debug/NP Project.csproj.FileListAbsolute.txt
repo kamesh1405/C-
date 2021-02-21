@@ -1,0 +1,42 @@
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\PF Project.exe.config
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\PF Project.exe
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\PF Project.pdb
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\mscorlib.dll
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\normidna.nlp
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\normnfc.nlp
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\normnfd.nlp
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\normnfkc.nlp
+C:\Users\Saba\Desktop\NP Project\NP Project\bin\Debug\normnfkd.nlp
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\NP Project.csprojResolveAssemblyReference.cache
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\Network_Programming.Client.resources
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\Network_Programming.Game.resources
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\Network_Programming.Main.resources
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\Network_Programming.Properties.Resources.resources
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\Network_Programming.Server.resources
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\NP Project.csproj.GenerateResource.Cache
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\PF Project.exe
+C:\Users\Saba\Desktop\NP Project\NP Project\obj\Debug\PF Project.pdb
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\NP Project.csprojAssemblyReference.cache
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\Network_Programming.Client.resources
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\Network_Programming.Game.resources
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\Network_Programming.Main.resources
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\Network_Programming.Properties.Resources.resources
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\Network_Programming.Server.resources
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\NP Project.csproj.GenerateResource.cache
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\NP Project.csproj.CoreCompileInputs.cache
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\PF Project.exe
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\obj\Debug\PF Project.pdb
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\bin\Debug\PF Project.exe.config
+C:\Users\PAF-KIET\Desktop\CS Learning Material\NP\NP Project\bin\Debug\PF Project.exe
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\bin\Debug\PF Project.exe.config
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\bin\Debug\PF Project.exe
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\bin\Debug\PF Project.pdb
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\NP Project.csprojResolveAssemblyReference.cache
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\Network_Programming.Client.resources
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\Network_Programming.Game.resources
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\Network_Programming.Main.resources
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\Network_Programming.Properties.Resources.resources
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\Network_Programming.Server.resources
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\NP Project.csproj.GenerateResource.Cache
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\PF Project.exe
+C:\Users\javeria\Desktop\New folder\Jaweria Projects\NP Project\obj\Debug\PF Project.pdb

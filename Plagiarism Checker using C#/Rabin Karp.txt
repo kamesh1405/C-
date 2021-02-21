@@ -1,0 +1,36 @@
+Rabin-Karp algorithm:
+Rabin-Karp algorithm also slides the pattern one by one. But unlike the Naive algorithm, Rabin Karp algorithm matches the hash value 
+of the pattern with the hash value of current substring of text, and if the hash values match then only it starts matching individual 
+characters. So Rabin Karp algorithm needs to calculate hash values for following strings.
+
+1) Pattern itself.
+2) All the substrings of text of length m.
+
+Since we need to efficiently calculate hash values for all the substrings of size m of text, we must have a hash function which has following 
+property.
+Hash at the next shift must be efficiently computable from the current hash value and next character in text or we can say 
+hash(txt[s+1 .. s+m]) must be efficiently computable from hash(txt[s .. s+m-1]) and txt[s+m] 
+i.e., hash(txt[s+1 .. s+m])= rehash(txt[s+m], hash(txt[s .. s+m-1]) and rehash must be O(1) operation.
+
+The hash function suggested by Rabin and Karp calculates an integer value. The integer value for a string is numeric value of a string. 
+For example, if all possible characters are from 1 to 10, the numeric value of “122” will be 122. The number of possible characters is 
+higher than 10 (256 in general) and pattern length can be large. So the numeric values cannot be practically stored as an integer.
+ Therefore, the numeric value is calculated using modular arithmetic to make sure that the hash values can be stored in an integer variable 
+(can fit in memory words). To do rehashing, we need to take off the most significant digit and add the new least significant digit for 
+in hash value. Rehashing is done using the following formula.
+
+hash( text[s+1 .. s+m] ) = ( NumofCharacters ( hash( text[s .. s+m-1]) – text[s]*h ) + txt[s + m] ) mod primenumber
+
+hash( txt[s .. s+m-1] ) : Hash value at shift s.
+hash( txt[s+1 .. s+m] ) : Hash value at next shift (or shift s+1)
+d: Number of characters in the alphabet
+q: A prime number
+h: d^(m-1)
+
+The Hashtable class represents a collection of key-and-value pairs that are organized based on the hash code of the key. 
+It uses the key to access the elements in the collection. A hash table is used when you need to access elements by using key, 
+and you can identify a useful key value. Each item in the hash table has a key/value pair. The key is used to access the items in the collection.
+
+
+The Hashtable collection stores key-value pairs. It optimizes lookups by computing the hash code of each key and stores it in a different 
+bucket internally and then matches the hash code of the specified key at the time of accessing values.

@@ -1,0 +1,15 @@
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\bin\Release\TictactoeLauncher.exe.config
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\Tictactoe.csprojResolveAssemblyReference.cache
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\Tictactoe.game.resources
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\TictactoeLauncher.Properties.Resources.resources
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\Tictactoe.single.resources
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\Tictactoe.Splashform.resources
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\Tictactoe.csproj.GenerateResource.Cache
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\TictactoeLauncher.exe
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\TictactoeLauncher.pdb
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\bin\Release\TictactoeLauncher.exe.manifest
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\bin\Release\TictactoeLauncher.application
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\bin\Release\TictactoeLauncher.exe
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\bin\Release\TictactoeLauncher.pdb
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\TictactoeLauncher.exe.manifest
+C:\Users\javeria\Downloads\PnDcProject\Tictactoe client\Tictactoe\obj\Release\TictactoeLauncher.application

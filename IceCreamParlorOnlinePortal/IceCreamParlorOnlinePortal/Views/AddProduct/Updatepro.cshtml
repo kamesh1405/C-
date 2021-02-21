@@ -1,0 +1,78 @@
+﻿@model IceCreamParlorOnlinePortal.Models.AddProductModel
+@{
+    ViewBag.Title = "Updatepro";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@helper button(string type, string value)
+{
+    <input type="@type" value="@value" class="btn btn-primary btn-group-lg" />
+}
+
+@using (Html.BeginForm("Updateemp", "AddEmployee", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Update Ice Cream Category</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IceCream_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IceCream_Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.HiddenFor(x => x.IceCream_ID)
+                @Html.ValidationMessageFor(model => model.IceCream_Name, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.IceCream_Descrip, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IceCream_Descrip, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.IceCream_Descrip, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.unit_price, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.unit_price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.unit_price, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Stock, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Stock, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Stock, null, new { @class = "text-danger" })
+
+            </div>
+        </div>
+      
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @button("submit", "Submit")
+            </div>
+        </div>
+        <label class="has-error" style="color:red">@ViewBag.Message</label>
+        <div class="clearfix"> </div>
+
+
+        <div class="clearfix"> </div>
+
+
+    </div>
+}
+
+<div>
+</div>
+
+
+
+
+
+
+
+

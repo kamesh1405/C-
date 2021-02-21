@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineIceCreamPortalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_Login">
+    <Key>
+      <PropertyRef Name="Login_ID" />
+    </Key>
+    <Property Name="Login_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="User_Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="User_Type" Type="Int32" Nullable="false" />
+    <Property Name="Emp_ID_fk_Emp_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbl_Employee" Relationship="OnlineIceCreamPortalModel.FK__tbl_Login__Emp_I__0DAF0CB0" FromRole="tbl_Login" ToRole="tbl_Employee" />
+  </EntityType>
+  <EntityContainer Name="OnlineIceCreamPortalEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_Login" EntityType="Self.tbl_Login" />
+    <EntitySet Name="tbl_Employee" EntityType="OnlineIceCreamPortalModel.tbl_Employee" />
+    <EntitySet Name="tbl_IceCream_Category" EntityType="OnlineIceCreamPortalModel.tbl_IceCream_Category" />
+    <AssociationSet Name="FK__tbl_Login__Emp_I__0DAF0CB0" Association="OnlineIceCreamPortalModel.FK__tbl_Login__Emp_I__0DAF0CB0">
+      <End Role="tbl_Employee" EntitySet="tbl_Employee" />
+      <End Role="tbl_Login" EntitySet="tbl_Login" />
+    </AssociationSet>
+    <EntitySet Name="CustomerPurchases" EntityType="OnlineIceCreamPortalModel.CustomerPurchase" />
+    <EntitySet Name="tbl_IceCreamProduct_Vendor" EntityType="OnlineIceCreamPortalModel.tbl_IceCreamProduct_Vendor" />
+    <EntitySet Name="tbl_Invoice" EntityType="OnlineIceCreamPortalModel.tbl_Invoice" />
+    <AssociationSet Name="FK__CustomerP__Invoi__0E6E26BF" Association="OnlineIceCreamPortalModel.FK__CustomerP__Invoi__0E6E26BF">
+      <End Role="tbl_Invoice" EntitySet="tbl_Invoice" />
+      <End Role="CustomerPurchase" EntitySet="CustomerPurchases" />
+    </AssociationSet>
+    <EntitySet Name="tbl_IceCream_Product" EntityType="OnlineIceCreamPortalModel.tbl_IceCream_Product" />
+    <AssociationSet Name="FK__tbl_IceCr__Cat_I__160F4887" Association="OnlineIceCreamPortalModel.FK__tbl_IceCr__Cat_I__160F4887">
+      <End Role="tbl_IceCream_Category" EntitySet="tbl_IceCream_Category" />
+      <End Role="tbl_IceCream_Product" EntitySet="tbl_IceCream_Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_IceCr__Vend___17036CC0" Association="OnlineIceCreamPortalModel.FK__tbl_IceCr__Vend___17036CC0">
+      <End Role="tbl_IceCreamProduct_Vendor" EntitySet="tbl_IceCreamProduct_Vendor" />
+      <End Role="tbl_IceCream_Product" EntitySet="tbl_IceCream_Product" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tbl_Employee">
+    <Key>
+      <PropertyRef Name="Emp_ID" />
+    </Key>
+    <Property Name="Emp_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="First_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Last_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Emp_Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Qualification" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Emp_Contact" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Emp_Add_On" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Emp_Add_by" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Emp_Updated_On" Type="DateTime" Precision="3" />
+    <Property Name="Emp_Updated_By" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tbl_Login" Relationship="OnlineIceCreamPortalModel.FK__tbl_Login__Emp_I__0DAF0CB0" FromRole="tbl_Employee" ToRole="tbl_Login" />
+  </EntityType>
+  <EntityType Name="tbl_IceCream_Category">
+    <Key>
+      <PropertyRef Name="Cat_ID" />
+    </Key>
+    <Property Name="Cat_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cat_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cat_Add_On" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Cat_Add_by" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cat_Updated_On" Type="DateTime" Precision="3" />
+    <Property Name="Cat_Updated_By" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tbl_IceCream_Product" Relationship="OnlineIceCreamPortalModel.FK__tbl_IceCr__Cat_I__160F4887" FromRole="tbl_IceCream_Category" ToRole="tbl_IceCream_Product" />
+  </EntityType>
+  <Association Name="FK__tbl_Login__Emp_I__0DAF0CB0">
+    <End Type="OnlineIceCreamPortalModel.tbl_Employee" Role="tbl_Employee" Multiplicity="1" />
+    <End Type="OnlineIceCreamPortalModel.tbl_Login" Role="tbl_Login" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Employee">
+        <PropertyRef Name="Emp_ID" />
+      </Principal>
+      <Dependent Role="tbl_Login">
+        <PropertyRef Name="Emp_ID_fk_Emp_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CustomerPurchase">
+    <Key>
+      <PropertyRef Name="Cust_Purchase_ID" />
+    </Key>
+    <Property Name="Cust_Purchase_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Quantity_Order" Type="Int32" Nullable="false" />
+    <Property Name="unit_price" Type="Int32" Nullable="false" />
+    <Property Name="Total_Price" Type="Int32" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="Order_status" Type="Binary" Nullable="false" MaxLength="1" FixedLength="true" />
+    <Property Name="Invoice_fk_Invoice_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbl_Invoice" Relationship="OnlineIceCreamPortalModel.FK__CustomerP__Invoi__0E6E26BF" FromRole="CustomerPurchase" ToRole="tbl_Invoice" />
+  </EntityType>
+  <EntityType Name="tbl_IceCreamProduct_Vendor">
+    <Key>
+      <PropertyRef Name="Vend_ID" />
+    </Key>
+    <Property Name="Vend_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vend_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vend_Company_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vend_Add_On" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Vend_Add_by" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vend_Updated_On" Type="DateTime" Precision="3" />
+    <Property Name="Vend_Updated_By" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tbl_IceCream_Product" Relationship="OnlineIceCreamPortalModel.FK__tbl_IceCr__Vend___17036CC0" FromRole="tbl_IceCreamProduct_Vendor" ToRole="tbl_IceCream_Product" />
+  </EntityType>
+  <EntityType Name="tbl_Invoice">
+    <Key>
+      <PropertyRef Name="Invoice_ID" />
+    </Key>
+    <Property Name="Invoice_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="First_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Last_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Contact" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Invoice_Add_On" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Invoice_Add_by" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Invoice_Updated_On" Type="DateTime" Precision="3" />
+    <Property Name="Invoice_Updated_By" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CustomerPurchases" Relationship="OnlineIceCreamPortalModel.FK__CustomerP__Invoi__0E6E26BF" FromRole="tbl_Invoice" ToRole="CustomerPurchase" />
+  </EntityType>
+  <Association Name="FK__CustomerP__Invoi__0E6E26BF">
+    <End Type="OnlineIceCreamPortalModel.tbl_Invoice" Role="tbl_Invoice" Multiplicity="1" />
+    <End Type="OnlineIceCreamPortalModel.CustomerPurchase" Role="CustomerPurchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Invoice">
+        <PropertyRef Name="Invoice_ID" />
+      </Principal>
+      <Dependent Role="CustomerPurchase">
+        <PropertyRef Name="Invoice_fk_Invoice_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tbl_IceCream_Product">
+    <Key>
+      <PropertyRef Name="IceCream_ID" />
+    </Key>
+    <Property Name="IceCream_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IceCream_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IceCream_Descrip" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IceCream_Image" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Stock" Type="Int32" Nullable="false" />
+    <Property Name="unit_price" Type="Int32" Nullable="false" />
+    <Property Name="Purchase_Price" Type="Int32" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="Sale_Price" Type="Int32" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="IceCream_Add_On" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IceCream_Add_by" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IceCream_Updated_On" Type="DateTime" Precision="3" />
+    <Property Name="IceCream_Updated_By" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cat_ID_fk_Cat_ID" Type="Int32" Nullable="false" />
+    <Property Name="Vend_ID_fk_Vend_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbl_IceCream_Category" Relationship="OnlineIceCreamPortalModel.FK__tbl_IceCr__Cat_I__160F4887" FromRole="tbl_IceCream_Product" ToRole="tbl_IceCream_Category" />
+    <NavigationProperty Name="tbl_IceCreamProduct_Vendor" Relationship="OnlineIceCreamPortalModel.FK__tbl_IceCr__Vend___17036CC0" FromRole="tbl_IceCream_Product" ToRole="tbl_IceCreamProduct_Vendor" />
+  </EntityType>
+  <Association Name="FK__tbl_IceCr__Cat_I__160F4887">
+    <End Type="OnlineIceCreamPortalModel.tbl_IceCream_Category" Role="tbl_IceCream_Category" Multiplicity="1" />
+    <End Type="OnlineIceCreamPortalModel.tbl_IceCream_Product" Role="tbl_IceCream_Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_IceCream_Category">
+        <PropertyRef Name="Cat_ID" />
+      </Principal>
+      <Dependent Role="tbl_IceCream_Product">
+        <PropertyRef Name="Cat_ID_fk_Cat_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_IceCr__Vend___17036CC0">
+    <End Type="OnlineIceCreamPortalModel.tbl_IceCreamProduct_Vendor" Role="tbl_IceCreamProduct_Vendor" Multiplicity="1" />
+    <End Type="OnlineIceCreamPortalModel.tbl_IceCream_Product" Role="tbl_IceCream_Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_IceCreamProduct_Vendor">
+        <PropertyRef Name="Vend_ID" />
+      </Principal>
+      <Dependent Role="tbl_IceCream_Product">
+        <PropertyRef Name="Vend_ID_fk_Vend_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

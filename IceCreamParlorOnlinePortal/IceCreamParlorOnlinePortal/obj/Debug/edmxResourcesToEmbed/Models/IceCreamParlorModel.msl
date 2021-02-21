@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineIceCreamPortalModelStoreContainer" CdmEntityContainer="OnlineIceCreamPortalEntities">
+    <EntitySetMapping Name="tbl_Login">
+      <EntityTypeMapping TypeName="OnlineIceCreamPortalModel.tbl_Login">
+        <MappingFragment StoreEntitySet="tbl_Login">
+          <ScalarProperty Name="Login_ID" ColumnName="Login_ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="User_Password" ColumnName="User_Password" />
+          <ScalarProperty Name="User_Type" ColumnName="User_Type" />
+          <ScalarProperty Name="Emp_ID_fk_Emp_ID" ColumnName="Emp_ID_fk_Emp_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Employee">
+      <EntityTypeMapping TypeName="OnlineIceCreamPortalModel.tbl_Employee">
+        <MappingFragment StoreEntitySet="tbl_Employee">
+          <ScalarProperty Name="Emp_Updated_By" ColumnName="Emp_Updated_By" />
+          <ScalarProperty Name="Emp_Updated_On" ColumnName="Emp_Updated_On" />
+          <ScalarProperty Name="Emp_Add_by" ColumnName="Emp_Add_by" />
+          <ScalarProperty Name="Emp_Add_On" ColumnName="Emp_Add_On" />
+          <ScalarProperty Name="Emp_Contact" ColumnName="Emp_Contact" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Qualification" ColumnName="Qualification" />
+          <ScalarProperty Name="Emp_Email" ColumnName="Emp_Email" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Emp_ID" ColumnName="Emp_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_IceCream_Category">
+      <EntityTypeMapping TypeName="OnlineIceCreamPortalModel.tbl_IceCream_Category">
+        <MappingFragment StoreEntitySet="tbl_IceCream_Category">
+          <ScalarProperty Name="Cat_Updated_By" ColumnName="Cat_Updated_By" />
+          <ScalarProperty Name="Cat_Updated_On" ColumnName="Cat_Updated_On" />
+          <ScalarProperty Name="Cat_Add_by" ColumnName="Cat_Add_by" />
+          <ScalarProperty Name="Cat_Add_On" ColumnName="Cat_Add_On" />
+          <ScalarProperty Name="Cat_Name" ColumnName="Cat_Name" />
+          <ScalarProperty Name="Cat_ID" ColumnName="Cat_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerPurchases">
+      <EntityTypeMapping TypeName="OnlineIceCreamPortalModel.CustomerPurchase">
+        <MappingFragment StoreEntitySet="CustomerPurchase">
+          <ScalarProperty Name="Invoice_fk_Invoice_ID" ColumnName="Invoice_fk_Invoice_ID" />
+          <ScalarProperty Name="Order_status" ColumnName="Order_status" />
+          <ScalarProperty Name="Total_Price" ColumnName="Total_Price" />
+          <ScalarProperty Name="unit_price" ColumnName="unit_price" />
+          <ScalarProperty Name="Quantity_Order" ColumnName="Quantity_Order" />
+          <ScalarProperty Name="Cust_Purchase_ID" ColumnName="Cust_Purchase_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_IceCreamProduct_Vendor">
+      <EntityTypeMapping TypeName="OnlineIceCreamPortalModel.tbl_IceCreamProduct_Vendor">
+        <MappingFragment StoreEntitySet="tbl_IceCreamProduct_Vendor">
+          <ScalarProperty Name="Vend_Updated_By" ColumnName="Vend_Updated_By" />
+          <ScalarProperty Name="Vend_Updated_On" ColumnName="Vend_Updated_On" />
+          <ScalarProperty Name="Vend_Add_by" ColumnName="Vend_Add_by" />
+          <ScalarProperty Name="Vend_Add_On" ColumnName="Vend_Add_On" />
+          <ScalarProperty Name="Vend_Company_Name" ColumnName="Vend_Company_Name" />
+          <ScalarProperty Name="Vend_Name" ColumnName="Vend_Name" />
+          <ScalarProperty Name="Vend_ID" ColumnName="Vend_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Invoice">
+      <EntityTypeMapping TypeName="OnlineIceCreamPortalModel.tbl_Invoice">
+        <MappingFragment StoreEntitySet="tbl_Invoice">
+          <ScalarProperty Name="Invoice_Updated_By" ColumnName="Invoice_Updated_By" />
+          <ScalarProperty Name="Invoice_Updated_On" ColumnName="Invoice_Updated_On" />
+          <ScalarProperty Name="Invoice_Add_by" ColumnName="Invoice_Add_by" />
+          <ScalarProperty Name="Invoice_Add_On" ColumnName="Invoice_Add_On" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Invoice_ID" ColumnName="Invoice_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_IceCream_Product">
+      <EntityTypeMapping TypeName="OnlineIceCreamPortalModel.tbl_IceCream_Product">
+        <MappingFragment StoreEntitySet="tbl_IceCream_Product">
+          <ScalarProperty Name="Vend_ID_fk_Vend_ID" ColumnName="Vend_ID_fk_Vend_ID" />
+          <ScalarProperty Name="Cat_ID_fk_Cat_ID" ColumnName="Cat_ID_fk_Cat_ID" />
+          <ScalarProperty Name="IceCream_Updated_By" ColumnName="IceCream_Updated_By" />
+          <ScalarProperty Name="IceCream_Updated_On" ColumnName="IceCream_Updated_On" />
+          <ScalarProperty Name="IceCream_Add_by" ColumnName="IceCream_Add_by" />
+          <ScalarProperty Name="IceCream_Add_On" ColumnName="IceCream_Add_On" />
+          <ScalarProperty Name="Sale_Price" ColumnName="Sale_Price" />
+          <ScalarProperty Name="Purchase_Price" ColumnName="Purchase_Price" />
+          <ScalarProperty Name="unit_price" ColumnName="unit_price" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="IceCream_Image" ColumnName="IceCream_Image" />
+          <ScalarProperty Name="IceCream_Descrip" ColumnName="IceCream_Descrip" />
+          <ScalarProperty Name="IceCream_Name" ColumnName="IceCream_Name" />
+          <ScalarProperty Name="IceCream_ID" ColumnName="IceCream_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

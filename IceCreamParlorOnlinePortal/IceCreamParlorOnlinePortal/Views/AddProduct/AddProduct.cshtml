@@ -1,0 +1,93 @@
+﻿@*-----------New________________--*@
+@model IceCreamParlorOnlinePortal.Models.AddProductModel
+@{
+    ViewBag.Title = "AddProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>AddProduct</h2>
+@helper button(string type, string value)
+{
+    <input type="@type" value="@value" class="btn btn-primary btn-group-lg" />
+}
+@*<img src="@Url.Content(Model.IceCream_Image)" width="250";height="250"/>*@
+@using (Html.BeginForm("AddProduct", "AddProduct", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IceCream_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IceCream_Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.IceCream_Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Cat_ID_fk_Cat_ID, (List<SelectListItem>)ViewBag.Cat, "----Select Category-----")
+                @Html.ValidationMessageFor(model => model.Cat_ID_fk_Cat_ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IceCream_Descrip, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IceCream_Descrip, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.IceCream_Descrip, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Stock, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Stock, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Stock, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.unit_price, htmlAttributes: new { @class = "control-label col-md-2", @placeholder = "Enter price of a Single Item" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.unit_price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.unit_price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IceCream_Image, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="ImageFile" required />
+
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Vend_ID_fk_Vend_ID, (List<SelectListItem>)ViewBag.Vend, "----Vendor Name -----")
+                @Html.ValidationMessageFor(model => model.Vend_ID_fk_Vend_ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @button("submit", "Submit")
+            </div>
+        </div>
+        <label class="has-error" style="color:red">@ViewBag.Message</label>
+        <div class="clearfix"> </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+

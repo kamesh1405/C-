@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59422177-4004-46FD-AACC-CC6315828BDB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Final_Hospital_Management_System</RootNamespace>
+    <AssemblyName>Final_Hospital_Management_System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Check_Attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Check_Attendence.Designer.cs">
+      <DependentUpon>Admin_Check_Attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_My_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_My_Profile.Designer.cs">
+      <DependentUpon>Admin_My_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Portal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Portal.Designer.cs">
+      <DependentUpon>Admin_Portal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendence.Designer.cs">
+      <DependentUpon>Attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorLogin.Designer.cs">
+      <DependentUpon>DoctorLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_Details.Designer.cs">
+      <DependentUpon>Doctor_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_My_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_My_Profile.Designer.cs">
+      <DependentUpon>Doctor_My_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_Patient_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_Patient_Information.Designer.cs">
+      <DependentUpon>Doctor_Patient_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_Portal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_Portal.Designer.cs">
+      <DependentUpon>Doctor_Portal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient_Information.Designer.cs">
+      <DependentUpon>Patient_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sign_Up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign_Up.Designer.cs">
+      <DependentUpon>Sign_Up.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Check_Attendence.resx">
+      <DependentUpon>Admin_Check_Attendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_My_Profile.resx">
+      <DependentUpon>Admin_My_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Portal.resx">
+      <DependentUpon>Admin_Portal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendence.resx">
+      <DependentUpon>Attendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorLogin.resx">
+      <DependentUpon>DoctorLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_Details.resx">
+      <DependentUpon>Doctor_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_My_Profile.resx">
+      <DependentUpon>Doctor_My_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_Patient_Information.resx">
+      <DependentUpon>Doctor_Patient_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_Portal.resx">
+      <DependentUpon>Doctor_Portal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient_Information.resx">
+      <DependentUpon>Patient_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sign_Up.resx">
+      <DependentUpon>Sign_Up.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital-management-system-background-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-up-sign-icon-registration-symbol-vector-14795929.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korganizer-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-up-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Close-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Register-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concentrated-doctor-working-with-a-virtual-screen_1134-639.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size_960_16_9_medico-computador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-user-icon-member-sign-avatar-button-vector-13229342.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-login-icon-12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthcare_students.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\.icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Register-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences-desktop-user-password-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences-desktop-user-password-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-session-logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-session-logout-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knob-Search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56166495-blue-square-icon-hospital-bed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fotolia-47301641-X-c-r-mxlyepc2frxtezwyeou9qnhb008kdrlu3qlnilfut4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800px_COLOURBOX15801214.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patients-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-563428_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-icon-flat-design-vector-6268869.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male-Doctor-Clipart-371x446.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_secrets_emergency_megaflopp-1024x683.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
